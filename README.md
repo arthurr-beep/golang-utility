@@ -20,14 +20,14 @@ Then you can use it below
 
 ```
 intSlice := []int{1, 2, 3, 4, 3, 5, 1, 6}
-duplicates := utils.FindDuplicates(intSlice)
+duplicates := utility.FindDuplicates(intSlice)
 fmt.Printf("Duplicates: %v\n", duplicates)
 
 stringSliceA := []string{"apple", "banana", "cherry", "date", "fig"}
 
 stringSliceB := []string{"apple", "banana", "date", "fig"}
 
-missingItems := utils.FindMissingItems(stringSliceA, stringSliceB)
+missingItems := utility.FindMissingItems(stringSliceA, stringSliceB)
 
 fmt.Printf("Missing items: %v\n", missingItems)
 ```
